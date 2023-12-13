@@ -16,10 +16,10 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/erwin">
         <Header />
         <Routes>
-          <Route path="/inicio" element={<Inicio />}  />
+          <Route path="/" element={<Inicio />}  />
           <Route path="/historia" element={<Historia />} /> 
           <Route path="/galeria" element={<Galeria />} /> 
           <Route path="/album" element={<Album />} /> 
