@@ -9,7 +9,7 @@ function Header() {
         <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
             <header class="flex items-center justify-between py-4 md:py-8">
             
-            <Link to="/" class="inline-flex items-center gap-2.5 text-2xl font-bold text-cyan-800 md:text-3xl" aria-label="logo">
+            <Link to="/inicio" class="inline-flex items-center gap-2.5 text-2xl font-bold text-cyan-800 md:text-3xl" aria-label="logo">
                 
 
                 Axel Rose
@@ -18,7 +18,7 @@ function Header() {
 
             
             <nav class="hidden gap-12 lg:flex">
-                <Link to="/" class="text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700">inicio</Link>
+                <Link to="/inicio" class="text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700">inicio</Link>
 
 
                 

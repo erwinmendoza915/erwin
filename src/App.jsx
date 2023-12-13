@@ -19,7 +19,7 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/" element={<Inicio />}  />
+          <Route path="/inicio" element={<Inicio />}  />
           <Route path="/historia" element={<Historia />} /> 
           <Route path="/galeria" element={<Galeria />} /> 
           <Route path="/album" element={<Album />} /> 
